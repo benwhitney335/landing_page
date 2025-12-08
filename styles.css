@@ -57,11 +57,8 @@ header {
     display: flex;
     height: 500px;
     background-color: #1F2937;
-}
-
-.interesting-info {
-    display: flex;
-    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .inspiring-quote {
@@ -127,6 +124,97 @@ blockquote {
     padding: 5px 25px;
     font-size: 18px;
 }
+
+.hero-text, .hero-image {
+    width: 35%;
+    height: 50%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 18px;
+    border: 0;
+}
+
+.interesting-info {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.descriptive-images {
+    display: flex;
+    column-gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.example img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.image-description {
+    color: rgb(76, 76, 76);
+    text-align: center;
+}
+
+
+
 
 
 
